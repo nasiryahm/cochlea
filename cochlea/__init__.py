@@ -30,6 +30,10 @@ from cochlea.zilany2009 import run_zilany2009
 from cochlea.holmberg2007 import run_holmberg2007
 from cochlea.holmberg2007 import run_holmberg2007_vesicles
 from cochlea.zilany2014 import run_zilany2014
+from cochlea.zilany2014._zilany2014 import run_ihc
+from cochlea.zilany2014._zilany2014 import run_synapse
+from cochlea.zilany2014._zilany2014 import run_spike_generator
+from cochlea.zilany2014.util import calc_cfs
 from cochlea.zilany2014 import run_zilany2014_rate
 
 
